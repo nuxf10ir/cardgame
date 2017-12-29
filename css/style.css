@@ -92,7 +92,7 @@
 .card-content__title {
     font-size: 26px;
     line-height: 32px;
-    font-weight: 900;
+    font-weight: 400;
     margin: 0 0 40px 0;
 }
 
@@ -114,6 +114,18 @@
     width: 100%;
     height: 50px;
     text-align: center;
+}
+
+.card-step {
+    position: absolute;
+    top: 8px;
+    width: auto;
+    height: 30px;
+    text-align: center;
+    font-size: 18px;
+    line-height: 18px;
+    font-weight: 400;
+
 }
 
 .card-button {
@@ -139,6 +151,7 @@
 
 .card-content_variant {
     margin: 0 0 10px 0;
+
 }
 
 .card-content_variant:last-child {
@@ -147,10 +160,21 @@
 
 .card-content_variant a {
     cursor: pointer;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #b18f20;
+
+    padding: 5px 10px;
+    display: block;
 }
 
+
+
 .card-content_variant a:hover {
-    color: #b18f20;
+    color: #FFFFFF;
+    border-color: #b18f20;
+    background: #b18f20;;
+
 }
 
 .card-content_variant a:before {
