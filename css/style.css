@@ -150,6 +150,16 @@
     counter-reset: list;
 }
 
+
+.card-content__type-4 .card-content_variants {
+    width: 200px
+}
+
+.card-content__type-1 .card-content_variants,
+.card-content__type-5 .card-content_variants {
+    width: 350px
+}
+
 .card-content_variant {
     margin: 0 0 10px 0;
 
